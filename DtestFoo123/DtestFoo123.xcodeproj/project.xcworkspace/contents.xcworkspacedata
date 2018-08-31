@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ZebpayLib.xcodeproj">
+      location = "self:DtestFoo123.xcodeproj">
    </FileRef>
 </Workspace>

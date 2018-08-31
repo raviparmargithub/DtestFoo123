@@ -1,15 +1,15 @@
 //
-//  ZebpayLibTests.swift
-//  ZebpayLibTests
+//  DtestFoo123Tests.swift
+//  DtestFoo123Tests
 //
 //  Created by Ravi Parmar on 31/08/18.
 //  Copyright © 2018 Ravi Parmar. All rights reserved.
 //
 
 import XCTest
-@testable import ZebpayLib
+@testable import DtestFoo123
 
-class ZebpayLibTests: XCTestCase {
+class DtestFoo123Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()
