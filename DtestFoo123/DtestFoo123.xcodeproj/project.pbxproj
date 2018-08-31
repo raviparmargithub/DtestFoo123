@@ -10,6 +10,7 @@
 		6E672D1821393E020056467F /* DtestFoo123.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E672D0E21393E020056467F /* DtestFoo123.framework */; };
 		6E672D1D21393E020056467F /* DtestFoo123Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E672D1C21393E020056467F /* DtestFoo123Tests.swift */; };
 		6E672D1F21393E020056467F /* DtestFoo123.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E672D1121393E020056467F /* DtestFoo123.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E672D2B2139436E0056467F /* MyFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E672D2A2139436E0056467F /* MyFramework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		6E672D1721393E020056467F /* DtestFoo123Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DtestFoo123Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E672D1C21393E020056467F /* DtestFoo123Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DtestFoo123Tests.swift; sourceTree = "<group>"; };
 		6E672D1E21393E020056467F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E672D2A2139436E0056467F /* MyFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFramework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		6E672D0421393E020056467F = {
 			isa = PBXGroup;
 			children = (
+				6E672D2A2139436E0056467F /* MyFramework.swift */,
 				6E672D1021393E020056467F /* DtestFoo123 */,
 				6E672D1B21393E020056467F /* DtestFoo123Tests */,
 				6E672D0F21393E020056467F /* Products */,
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					6E672D0D21393E020056467F = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					6E672D1621393E020056467F = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E672D2B2139436E0056467F /* MyFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +344,7 @@
 		6E672D2321393E020056467F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -356,6 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zebventures.zebpay.DtestFoo123;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +371,7 @@
 		6E672D2421393E020056467F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -389,6 +397,7 @@
 		6E672D2621393E020056467F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2QYW9CELW4;
 				INFOPLIST_FILE = DtestFoo123Tests/Info.plist;
@@ -407,6 +416,7 @@
 		6E672D2721393E020056467F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2QYW9CELW4;
 				INFOPLIST_FILE = DtestFoo123Tests/Info.plist;
