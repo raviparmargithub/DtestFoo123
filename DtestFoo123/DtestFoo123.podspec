@@ -5,7 +5,7 @@ s.license = 'MIT'
 s.summary = 'Elegant HTTP Networking in Swift'
 s.homepage = 'https://github.com/raviparmargithub/DtestFoo123'
 s.authors = { 'Alamofire Software Foundation' => 'info@alamofire.org' }
-s.source = { :git => 'https://github.com/raviparmargithub/DtestFoo123.git', :tag => s.version }
+s.source = { :git => 'https://github.com/raviparmargithub/DtestFoo123/tree/master/DtestFoo123', :tag => s.version }
 s.documentation_url = 'https://alamofire.github.io/Alamofire/'
 
 s.ios.deployment_target = '8.0'
