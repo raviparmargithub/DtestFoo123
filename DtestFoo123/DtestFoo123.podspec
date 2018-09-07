@@ -5,7 +5,7 @@ s.summary      = "A short description of MyFramework."
 s.description  = <<-DESC
 A much much longer description of MyFramework.
 DESC
-s.homepage     = "http://EXAMPLE/MyFramework"
+s.homepage     = "http://www.google.com"
 s.license      = "Copyleft"
 s.author       = { "ravi" => "ravi.parmar@zebpay.com" }
 s.source       = { :path => '.' }
